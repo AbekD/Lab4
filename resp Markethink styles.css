@@ -1,0 +1,491 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-style: normal;
+	font-family: 'Roboto';
+	max-width: 100%;
+}
+[class*='col-'] {
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+.button {
+	border-radius: 116px;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+}
+a {
+	font-size: 16px;
+	font-weight: 400;
+	color: #78847d;
+	cursor: pointer;
+}
+a :hover :visited {
+	color: #4d534f;
+	text-decoration: underline #242725;
+}
+#landing-Page {
+	max-width: 100%;
+	height: 100%;
+}
+#Digital-Marketing {
+	position: relative;
+	width: 100%;
+	height: 852px;
+	background-image: url(Images/background.jpg);
+	background-size: 100% 100%;
+}
+#menu {
+	position: absolute;
+	width: 83.33%;
+	height: 6.6%;
+	left: 8.33%;
+	top: 2.6%;
+}
+#main-menu {
+	position: absolute;
+	width: 63%;
+	height: 19px;
+	left: 41%;
+	top: 20%;
+	color: #ffffff;
+}
+#centered {
+	margin-left: 2.3%;
+	margin-right: 2.3%;
+}
+#menu-btn {
+	position: absolute;
+	width: 43%;
+	height: 33.7%;
+	top: 70%;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(237, 255, 129, 0.4);
+	font-size: 16px;
+	line-height: 19px;
+}
+#promo {
+	position: absolute;
+	height: 84%;
+	top: 12.7%;
+	text-align: center;
+	color: #ffffff;
+}
+#best {
+	font-size: 36px;
+}
+h1 {
+	font-size: 90px;
+}
+#promo-text {
+	font-size: 32px;
+	opacity: 60%;
+}
+#promo-btn {
+	position: absolute;
+	width: 72%;
+	height: 18.1%;
+	left: 14%;
+	top: 70%;
+	font-size: 20px;
+	line-height: 23px;
+	background: linear-gradient(328.68deg, #64aa28 13.03%, #d6ff7e 120.61%);
+	box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+}
+#Services {
+	position: relative;
+	height: 1200px;
+	color: #253d32;
+	background-color: #ffffff;
+}
+#Were {
+	position: absolute;
+	text-align: center;
+	font-size: 42px;
+	top: 3.3%;
+	left: 5.3%;
+}
+.container {
+	left: 30.7%;
+	float: left;
+}
+.heading {
+	padding-top: 35.1%;
+}
+.content {
+	padding-top: 12.4%;
+	font-size: 18px;
+}
+#optimization {
+	position: absolute;
+	width: 38.66%;
+	height: 20%;
+	top: 16%;
+	background-image: url(Images/Orange\ trapezoid.jpg);
+	background-repeat: no-repeat;
+}
+#strategy {
+	position: absolute;
+	width: 38.66%;
+	height: 20%;
+	top: 37%;
+	background-image: url(Images/Green\ cube.jpg);
+	background-repeat: no-repeat;
+}
+#creation {
+	position: absolute;
+	width: 38.66%;
+	height: 20%;
+	top: 57%;
+	background-image: url(Images/Blue\ circle.jpg);
+	background-repeat: no-repeat;
+}
+#development {
+	position: absolute;
+	width: 38.66%;
+	height: 20%;
+	top: 77%;
+	background-image: url(Images/purple\ pyramid.jpg);
+	background-repeat: no-repeat;
+}
+#partner {
+	position: relative;
+	height: 240px;
+	background-color: #2d483a;
+}
+#partner-logos {
+	position: absolute;
+	width: 15%;
+	left: 40%;
+	top: 17.1%;
+}
+#centered-partner {
+	margin-left: 7.5%;
+	margin-right: 7%;
+}
+#Footer {
+	position: relative;
+	height: 600px;
+	background-color: #ffffff;
+	color: #253d32;
+}
+.markethink-logo {
+	position: absolute;
+	width: 63.3%;
+	left: 9.5%;
+	top: 9%;
+	font-size: 20px;
+	line-height: 34px;
+	letter-spacing: 0.01em;
+	color: #78847d;
+}
+#social-medias {
+	position: absolute;
+	width: 73%;
+	height: 40px;
+	left: 9.5%;
+	top: 38.3%;
+}
+#twitter {
+	margin-left: 5.3%;
+	margin-right: 5.3%;
+}
+.footer-menu {
+	position: absolute;
+	width: 24.2%;
+	height: 23%;
+	top: 47%;
+}
+#first-content {
+	position: absolute;
+	left: 10%;
+}
+#second-content {
+	position: absolute;
+	left: 40%;
+}
+#third-content {
+	position: absolute;
+	left: 74.7%;
+}
+.footer-link {
+	color: #77847d;
+	font-size: 20px;
+}
+#Line {
+	position: absolute;
+	width: 77%;
+	left: 11.5%;
+	top: 93%;
+	border: 1px solid rgba(20, 24, 62, 0.15);
+}
+#caution {
+	position: absolute;
+	color: #78847d;
+	height: 34px;
+	left: 25.4%;
+	top: 95.7%;
+}
+@media only screen and (min-width: 600px) {
+	.col-1 {
+		width: 8.33%;
+	}
+	.col-2 {
+		width: 16.66%;
+	}
+	.col-3 {
+		width: 25%;
+	}
+	.col-4 {
+		width: 33.33%;
+	}
+	.col-5 {
+		width: 41.66%;
+	}
+	.col-6 {
+		width: 50%;
+	}
+	.col-7 {
+		width: 58.33%;
+	}
+	.col-8 {
+		width: 66.66%;
+	}
+	.col-9 {
+		width: 75%;
+	}
+	.col-10 {
+		width: 83.33%;
+	}
+	.col-11 {
+		width: 91.66%;
+	}
+	.col-12 {
+		width: 100%;
+	}
+	.button {
+		border-radius: 116px;
+		font-style: normal;
+		font-weight: 500;
+		text-align: center;
+		color: #ffffff;
+		cursor: pointer;
+	}
+	a {
+		font-size: 16px;
+		font-weight: 400;
+		color: #78847d;
+		cursor: pointer;
+	}
+	a :hover :visited {
+		color: #4d534f;
+		text-decoration: underline #242725;
+	}
+	#landing-Page {
+		max-width: 100%;
+		height: 100%;
+	}
+	#Digital-Marketing {
+		position: relative;
+		width: 100%;
+		height: 852px;
+		background-image: url(Images/background.jpg);
+		background-repeat: no-repeat;
+	}
+	#menu {
+		position: absolute;
+		width: 80%;
+		height: 6.6%;
+		left: 8.8%;
+		top: 5.6%;
+	}
+	#main-menu {
+		position: absolute;
+		width: 34%;
+		height: 19px;
+		left: 49%;
+		top: 25%;
+		color: #ffffff;
+	}
+	#centered {
+		margin-left: 8.5%;
+		margin-right: 8.5%;
+	}
+	#menu-btn {
+		position: absolute;
+		width: 11.2%;
+		height: 100%;
+		left: 84%;
+		top: 0%;
+		background: rgba(255, 255, 255, 0.1);
+		border: 1px solid rgba(237, 255, 129, 0.4);
+		font-size: 16px;
+		line-height: 19px;
+	}
+	#promo {
+		position: absolute;
+		height: 39%;
+		top: 30.7%;
+		text-align: center;
+		color: #ffffff;
+	}
+	#best {
+		font-size: 36px;
+	}
+	h1 {
+		font-size: 90px;
+	}
+	#promo-text {
+		font-size: 22px;
+		opacity: 60%;
+	}
+	#promo-btn {
+		position: absolute;
+		width: 16%;
+		height: 23.1%;
+		left: 43%;
+		top: 75%;
+		font-size: 20px;
+		line-height: 23px;
+		background: linear-gradient(328.68deg, #64aa28 13.03%, #d6ff7e 120.61%);
+		box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+	}
+	#Services {
+		position: relative;
+		height: 510px;
+		color: #253d32;
+		background-color: #ffffff;
+	}
+	#Were {
+		position: absolute;
+		font-size: 42px;
+		top: 14.3%;
+		left: 20.3%;
+	}
+	.heading {
+		padding-top: 37.6%;
+	}
+	.content {
+		padding-top: 21.4%;
+		font-size: 18px;
+	}
+	#optimization {
+		position: absolute;
+		width: 15.5%;
+		height: 46%;
+		left: 8.8%;
+		top: 36.6%;
+		background-image: url(Images/Orange\ trapezoid.jpg);
+		background-repeat: no-repeat;
+	}
+	#strategy {
+		position: absolute;
+		width: 15.5%;
+		height: 46%;
+		left: 30%;
+		top: 36.6%;
+		background-image: url(Images/Green\ cube.jpg);
+		background-repeat: no-repeat;
+	}
+	#creation {
+		position: absolute;
+		width: 15.5%;
+		height: 46%;
+		left: 51%;
+		top: 36.6%;
+		background-image: url(Images/Blue\ circle.jpg);
+		background-repeat: no-repeat;
+	}
+	#development {
+		position: absolute;
+		width: 16.5%;
+		height: 46%;
+		left: 72%;
+		top: 36.6%;
+		background-image: url(Images/purple\ pyramid.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#partner {
+		position: relative;
+		height: 140px;
+		background-color: #2d483a;
+	}
+	#partner-logos {
+		position: absolute;
+		width: 73%;
+		left: 12.1%;
+		top: 37.1%;
+	}
+	#centered-partner {
+		margin-left: 7.2%;
+		margin-right: 7.2%;
+	}
+	#Footer {
+		position: relative;
+		height: 449px;
+		background-color: #ffffff;
+		color: #253d32;
+	}
+	.markethink-logo {
+		position: absolute;
+		width: 23.3%;
+		left: 9.5%;
+		top: 12.2%;
+		font-size: 20px;
+		line-height: 34px;
+		letter-spacing: 0.01em;
+		color: #78847d;
+	}
+	#social-medias {
+		position: absolute;
+		width: 11%;
+		height: 40px;
+		left: 9.5%;
+		top: 48.7%;
+	}
+	#twitter {
+		margin-left: 5.3%;
+		margin-right: 5.3%;
+	}
+	.footer-menu {
+		position: absolute;
+		width: 10.2%;
+		height: 53%;
+		top: 11.5%;
+	}
+	#first-content {
+		position: absolute;
+		left: 44%;
+	}
+	#second-content {
+		position: absolute;
+		left: 58.5%;
+	}
+	#third-content {
+		position: absolute;
+		left: 75.7%;
+	}
+	.footer-link {
+		color: #77847d;
+	}
+	#Line {
+		position: absolute;
+		width: 77%;
+		left: 11.5%;
+		top: 79%;
+		border: 1px solid rgba(20, 24, 62, 0.15);
+	}
+	#caution {
+		position: absolute;
+		color: #78847d;
+		height: 34px;
+		left: 37.4%;
+		top: 85.7%;
+	}
+}
